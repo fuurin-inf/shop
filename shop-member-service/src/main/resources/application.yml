@@ -28,4 +28,23 @@ spring:
 			initialSize: 1
 			maxWait: 60000
 			minIdle: 1
-			
+			timeBetweenEvictionRunsMillis: 60000
+			minEvictableIdleTimeMillis: 300000
+			validationQuery: select 'x'
+			testWhileIdle: true
+			testOnBorrow: false
+			testOnReturn: false
+			poolPreparedStatements: true
+			maxOpenPreparedStatements: 20
+	activemq:
+		broker-url:tcp://10.10.35.172:61616
+		in-memory:true
+		pool:
+			enabled:false
+messages:
+	queue: mail_queue
+
+
+ribbon:
+	eureka:
+		enabled: true

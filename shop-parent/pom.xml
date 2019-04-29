@@ -175,4 +175,7 @@
             <url>http://repo.spring.io/libs-release</url>
         </repository>
     </repositories>
+	<modules>
+		<module>shop-message</module>
+	</modules>
 </project>

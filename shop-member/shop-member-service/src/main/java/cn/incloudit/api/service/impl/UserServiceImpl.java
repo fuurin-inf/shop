@@ -54,4 +54,16 @@ public class UserServiceImpl implements IUserService{
 		return null;
 	}
 
+	@Override
+	public ShopResult login(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ShopResult getUser(String token) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

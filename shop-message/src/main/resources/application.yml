@@ -1,0 +1,27 @@
+server:
+  port: 8763
+  #context-path: /message
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: message
+  activemq:
+    broker-url: tcp://10.10.35.172:61616
+    #broker-url: tcp://127.0.0.1:61616
+    in-memory: true
+    pool:
+      enabled: false
+  mail:
+    host: smtp.163.com
+    username: icloudit@163.com
+    password: xxs123456
+    enable:  true
+    smtp:
+      auth: true
+    starttls:
+      enable: true
+      required: true
+      

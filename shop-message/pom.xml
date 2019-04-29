@@ -4,7 +4,7 @@
     <groupId>com.hp</groupId>
     <artifactId>shop-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-  </parent
+  </parent>
   <groupId>com.hp</groupId>
   <artifactId>shop-message</artifactId>
   <version>0.0.1-SNAPSHOT</version>

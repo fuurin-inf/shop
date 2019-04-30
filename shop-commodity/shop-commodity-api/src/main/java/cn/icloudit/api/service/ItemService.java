@@ -1,5 +1,7 @@
 package cn.icloudit.api.service;
 
-public interface ItemService {
+import org.springframework.web.bind.annotation.RequestMapping;
 
+@RequestMapping("/item")
+public interface ItemService {
 }

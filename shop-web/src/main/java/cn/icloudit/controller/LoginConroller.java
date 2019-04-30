@@ -44,7 +44,7 @@ public class LoginConroller extends BaseController {
 		// 登录成功之后,获取token.将这个token存放在cookie
 		String token = (String) login.getData();
 		CookieUtil.addCookie(response, "token", token, Constants.WEBUSER_COOKIE_TOKEN_TERMVALIDITY);
-		return INDEX;
+		return "redirect:/index";
 
 	}
 

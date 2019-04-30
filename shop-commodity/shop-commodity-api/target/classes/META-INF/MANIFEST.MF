@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: shop-commodity-api
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Administrator
+Implementation-Vendor-Id: com.hp
+Build-Jdk: 1.8.0_65
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/shop-parent/shop-commodity/shop-commodity-api
+Created-By: Maven Integration for Eclipse
+
